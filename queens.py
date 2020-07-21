@@ -48,3 +48,7 @@ for i, j in product(range(n), repeat=2):
         plt.text(i, j, '♕', fontsize=20, ha='center', va='center', color='black' if (i - j) % 2 == 0 else 'white')
 
 plt.show()
+
+
+# thanks to JohanC for the beautiful chessboard example
+# https://stackoverflow.com/questions/60608055/insert-queen-on-a-chessboard-with-pyplot
